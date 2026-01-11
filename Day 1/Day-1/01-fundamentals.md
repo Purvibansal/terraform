@@ -144,6 +144,7 @@ resource "aws_instance" "example" {
   ami           = "ami-0abcd1234"
   instance_type = "t2.micro"
 }
+```
 
 Terraform automatically determines resource relationships and execution flow to ensure your infrastructure is deployed efficiently.
 
@@ -220,6 +221,7 @@ jobs:
       - run: terraform init
       - run: terraform plan
 
+```
 
 ## 8. HashiCorp Configuration Language (HCL)
 
@@ -247,7 +249,7 @@ resource "aws_instance" "web" {
     Name = "HelloWorld"
   }
 }
-
+```
 
 ## Declarative vs. Imperative
 
